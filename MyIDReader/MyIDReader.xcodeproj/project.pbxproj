@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176BF1421D62F493006F4693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176BF1411D62F493006F4693 /* Images.xcassets */; };
+		C418365916ECBA24000D33DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C418365816ECBA24000D33DC /* UIKit.framework */; };
+		C418365B16ECBA24000D33DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C418365A16ECBA24000D33DC /* Foundation.framework */; };
+		C418365D16ECBA24000D33DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C418365C16ECBA24000D33DC /* CoreGraphics.framework */; };
+		C418366316ECBA24000D33DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C418366116ECBA24000D33DC /* InfoPlist.strings */; };
+		C418366516ECBA24000D33DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C418366416ECBA24000D33DC /* main.m */; };
+		C418366916ECBA24000D33DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C418366816ECBA24000D33DC /* AppDelegate.m */; };
+		C418366B16ECBA24000D33DC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C418366A16ECBA24000D33DC /* Default.png */; };
+		C418366D16ECBA24000D33DC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C418366C16ECBA24000D33DC /* Default@2x.png */; };
+		C418366F16ECBA25000D33DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C418366E16ECBA25000D33DC /* Default-568h@2x.png */; };
+		C418367216ECBA25000D33DC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C418367116ECBA25000D33DC /* ViewController.mm */; };
+		C418367516ECBA25000D33DC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C418367316ECBA25000D33DC /* ViewController_iPhone.xib */; };
+		C418367816ECBA25000D33DC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C418367616ECBA25000D33DC /* ViewController_iPad.xib */; };
+		C418368416ECBAE0000D33DC /* MainBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C418367F16ECBAE0000D33DC /* MainBg.png */; };
+		C418368516ECBAE0000D33DC /* MainBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C418368016ECBAE0000D33DC /* MainBg@2x.png */; };
+		C418368616ECBAE0000D33DC /* myid.png in Resources */ = {isa = PBXBuildFile; fileRef = C418368116ECBAE0000D33DC /* myid.png */; };
+		C418368716ECBAE0000D33DC /* mykad.png in Resources */ = {isa = PBXBuildFile; fileRef = C418368216ECBAE0000D33DC /* mykad.png */; };
+		C418368816ECBAE0000D33DC /* mykid.png in Resources */ = {isa = PBXBuildFile; fileRef = C418368316ECBAE0000D33DC /* mykid.png */; };
+		C425CBE416ECCD8C0072B3B9 /* MyKadBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C425CBE016ECCD8C0072B3B9 /* MyKadBg.png */; };
+		C425CBE516ECCD8C0072B3B9 /* MyKadBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C425CBE116ECCD8C0072B3B9 /* MyKadBg@2x.png */; };
+		C425CBE616ECCD8C0072B3B9 /* MyKidBg.png in Resources */ = {isa = PBXBuildFile; fileRef = C425CBE216ECCD8C0072B3B9 /* MyKidBg.png */; };
+		C425CBE716ECCD8C0072B3B9 /* MyKidBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C425CBE316ECCD8C0072B3B9 /* MyKidBg@2x.png */; };
+		C4B3236F16FA1FED00A064FC /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B3236E16FA1FED00A064FC /* ExternalAccessory.framework */; };
+		C4CDE97717169C3E00DA238B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE97617169C3E00DA238B /* Icon.png */; };
+		C4CDE97917169C4800DA238B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE97817169C4800DA238B /* Icon@2x.png */; };
+		C4CDE97B17169C6700DA238B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE97A17169C6700DA238B /* Icon-72.png */; };
+		C4CDE97D17169C7000DA238B /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE97C17169C7000DA238B /* icon144.png */; };
+		C4CDE98217169D1E00DA238B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE97E17169D1E00DA238B /* Icon-Small-50.png */; };
+		C4CDE98317169D1E00DA238B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE97F17169D1E00DA238B /* Icon-Small.png */; };
+		C4CDE98417169D1E00DA238B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE98017169D1E00DA238B /* Icon-Small@2x.png */; };
+		C4CDE98517169D1E00DA238B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C4CDE98117169D1E00DA238B /* iTunesArtwork */; };
+		C4DB134216F059C6002AF497 /* MyKadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB134116F059C6002AF497 /* MyKadViewController.m */; };
+		C4DB134416F05A1B002AF497 /* MyKadHeader_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DB134316F05A1B002AF497 /* MyKadHeader_iPhone.xib */; };
+		C4DB138116F062EB002AF497 /* nophoto.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DB138016F062EB002AF497 /* nophoto.png */; };
+		C4DB138516F07770002AF497 /* MyKadHeader_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DB138416F07770002AF497 /* MyKadHeader_iPad.xib */; };
+		C4DB138816F082A9002AF497 /* MyKidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB138716F082A9002AF497 /* MyKidViewController.m */; };
+		C4DB138A16F082CB002AF497 /* MyKidHeader_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DB138916F082CB002AF497 /* MyKidHeader_iPhone.xib */; };
+		C4DB138C16F082E7002AF497 /* MyKidHeader_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4DB138B16F082E7002AF497 /* MyKidHeader_iPad.xib */; };
+		C4E80611191A103800B39B7A /* MyID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E80610191A103800B39B7A /* MyID.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		176BF1411D62F493006F4693 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C418365416ECBA24000D33DC /* MyIDReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIDReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C418365816ECBA24000D33DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C418365A16ECBA24000D33DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C418365C16ECBA24000D33DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C418366016ECBA24000D33DC /* MyIDReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyIDReader-Info.plist"; sourceTree = "<group>"; };
+		C418366216ECBA24000D33DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C418366416ECBA24000D33DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C418366616ECBA24000D33DC /* MyIDReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyIDReader-Prefix.pch"; sourceTree = "<group>"; };
+		C418366716ECBA24000D33DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C418366816ECBA24000D33DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C418366A16ECBA24000D33DC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C418366C16ECBA24000D33DC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C418366E16ECBA25000D33DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C418367016ECBA25000D33DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C418367116ECBA25000D33DC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		C418367416ECBA25000D33DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		C418367716ECBA25000D33DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C418367F16ECBAE0000D33DC /* MainBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MainBg.png; path = MyIDReader/res/MainBg.png; sourceTree = "<group>"; };
+		C418368016ECBAE0000D33DC /* MainBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MainBg@2x.png"; path = "MyIDReader/res/MainBg@2x.png"; sourceTree = "<group>"; };
+		C418368116ECBAE0000D33DC /* myid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myid.png; path = MyIDReader/res/myid.png; sourceTree = "<group>"; };
+		C418368216ECBAE0000D33DC /* mykad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mykad.png; path = MyIDReader/res/mykad.png; sourceTree = "<group>"; };
+		C418368316ECBAE0000D33DC /* mykid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mykid.png; path = MyIDReader/res/mykid.png; sourceTree = "<group>"; };
+		C425CBE016ECCD8C0072B3B9 /* MyKadBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MyKadBg.png; path = MyIDReader/res/MyKadBg.png; sourceTree = "<group>"; };
+		C425CBE116ECCD8C0072B3B9 /* MyKadBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MyKadBg@2x.png"; path = "MyIDReader/res/MyKadBg@2x.png"; sourceTree = "<group>"; };
+		C425CBE216ECCD8C0072B3B9 /* MyKidBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MyKidBg.png; path = MyIDReader/res/MyKidBg.png; sourceTree = "<group>"; };
+		C425CBE316ECCD8C0072B3B9 /* MyKidBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MyKidBg@2x.png"; path = "MyIDReader/res/MyKidBg@2x.png"; sourceTree = "<group>"; };
+		C484259118F3B390000E9ABD /* MyID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyID.framework; path = MyIDReader/MyID.framework; sourceTree = "<group>"; };
+		C48425C118F3B394000E9ABD /* MyIDReader copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MyIDReader copy-Info.plist"; path = "/Users/jerry/Desktop/Bluetooth/MyIDReader/MyIDReader copy-Info.plist"; sourceTree = "<absolute>"; };
+		C4B3236E16FA1FED00A064FC /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		C4CDE97617169C3E00DA238B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C4CDE97817169C4800DA238B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C4CDE97A17169C6700DA238B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C4CDE97C17169C7000DA238B /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+		C4CDE97E17169D1E00DA238B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		C4CDE97F17169D1E00DA238B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C4CDE98017169D1E00DA238B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C4CDE98117169D1E00DA238B /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		C4DB134016F059C6002AF497 /* MyKadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKadViewController.h; sourceTree = "<group>"; };
+		C4DB134116F059C6002AF497 /* MyKadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKadViewController.m; sourceTree = "<group>"; };
+		C4DB134316F05A1B002AF497 /* MyKadHeader_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyKadHeader_iPhone.xib; sourceTree = "<group>"; };
+		C4DB138016F062EB002AF497 /* nophoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nophoto.png; path = MyIDReader/res/nophoto.png; sourceTree = "<group>"; };
+		C4DB138416F07770002AF497 /* MyKadHeader_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyKadHeader_iPad.xib; sourceTree = "<group>"; };
+		C4DB138616F082A9002AF497 /* MyKidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKidViewController.h; sourceTree = "<group>"; };
+		C4DB138716F082A9002AF497 /* MyKidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKidViewController.m; sourceTree = "<group>"; };
+		C4DB138916F082CB002AF497 /* MyKidHeader_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyKidHeader_iPhone.xib; sourceTree = "<group>"; };
+		C4DB138B16F082E7002AF497 /* MyKidHeader_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyKidHeader_iPad.xib; sourceTree = "<group>"; };
+		C4E80610191A103800B39B7A /* MyID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyID.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C418365116ECBA24000D33DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E80611191A103800B39B7A /* MyID.framework in Frameworks */,
+				C4B3236F16FA1FED00A064FC /* ExternalAccessory.framework in Frameworks */,
+				C418365916ECBA24000D33DC /* UIKit.framework in Frameworks */,
+				C418365B16ECBA24000D33DC /* Foundation.framework in Frameworks */,
+				C418365D16ECBA24000D33DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C418364916ECBA24000D33DC = {
+			isa = PBXGroup;
+			children = (
+				C425CBDA16ECC75F0072B3B9 /* xib */,
+				C418367E16ECBA42000D33DC /* res */,
+				C418365E16ECBA24000D33DC /* MyIDReader */,
+				C418365716ECBA24000D33DC /* Frameworks */,
+				C418365516ECBA24000D33DC /* Products */,
+				C48425C118F3B394000E9ABD /* MyIDReader copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		C418365516ECBA24000D33DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C418365416ECBA24000D33DC /* MyIDReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C418365716ECBA24000D33DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E80610191A103800B39B7A /* MyID.framework */,
+				C484259118F3B390000E9ABD /* MyID.framework */,
+				C4B3236E16FA1FED00A064FC /* ExternalAccessory.framework */,
+				C418365816ECBA24000D33DC /* UIKit.framework */,
+				C418365A16ECBA24000D33DC /* Foundation.framework */,
+				C418365C16ECBA24000D33DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C418365E16ECBA24000D33DC /* MyIDReader */ = {
+			isa = PBXGroup;
+			children = (
+				C418366716ECBA24000D33DC /* AppDelegate.h */,
+				C418366816ECBA24000D33DC /* AppDelegate.m */,
+				C418367016ECBA25000D33DC /* ViewController.h */,
+				C418367116ECBA25000D33DC /* ViewController.mm */,
+				C4DB134016F059C6002AF497 /* MyKadViewController.h */,
+				C4DB134116F059C6002AF497 /* MyKadViewController.m */,
+				C4DB138616F082A9002AF497 /* MyKidViewController.h */,
+				C4DB138716F082A9002AF497 /* MyKidViewController.m */,
+				176BF1411D62F493006F4693 /* Images.xcassets */,
+				C418365F16ECBA24000D33DC /* Supporting Files */,
+			);
+			path = MyIDReader;
+			sourceTree = "<group>";
+		};
+		C418365F16ECBA24000D33DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C418366016ECBA24000D33DC /* MyIDReader-Info.plist */,
+				C418366116ECBA24000D33DC /* InfoPlist.strings */,
+				C418366416ECBA24000D33DC /* main.m */,
+				C418366616ECBA24000D33DC /* MyIDReader-Prefix.pch */,
+				C418366A16ECBA24000D33DC /* Default.png */,
+				C418366C16ECBA24000D33DC /* Default@2x.png */,
+				C418366E16ECBA25000D33DC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C418367E16ECBA42000D33DC /* res */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDE97E17169D1E00DA238B /* Icon-Small-50.png */,
+				C4CDE97F17169D1E00DA238B /* Icon-Small.png */,
+				C4CDE98017169D1E00DA238B /* Icon-Small@2x.png */,
+				C4CDE98117169D1E00DA238B /* iTunesArtwork */,
+				C4CDE97C17169C7000DA238B /* icon144.png */,
+				C4CDE97A17169C6700DA238B /* Icon-72.png */,
+				C4CDE97817169C4800DA238B /* Icon@2x.png */,
+				C4CDE97617169C3E00DA238B /* Icon.png */,
+				C4DB138016F062EB002AF497 /* nophoto.png */,
+				C425CBE016ECCD8C0072B3B9 /* MyKadBg.png */,
+				C425CBE116ECCD8C0072B3B9 /* MyKadBg@2x.png */,
+				C425CBE216ECCD8C0072B3B9 /* MyKidBg.png */,
+				C425CBE316ECCD8C0072B3B9 /* MyKidBg@2x.png */,
+				C418367F16ECBAE0000D33DC /* MainBg.png */,
+				C418368016ECBAE0000D33DC /* MainBg@2x.png */,
+				C418368116ECBAE0000D33DC /* myid.png */,
+				C418368216ECBAE0000D33DC /* mykad.png */,
+				C418368316ECBAE0000D33DC /* mykid.png */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		C425CBDA16ECC75F0072B3B9 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				C4DB134316F05A1B002AF497 /* MyKadHeader_iPhone.xib */,
+				C4DB138416F07770002AF497 /* MyKadHeader_iPad.xib */,
+				C4DB138916F082CB002AF497 /* MyKidHeader_iPhone.xib */,
+				C4DB138B16F082E7002AF497 /* MyKidHeader_iPad.xib */,
+				C418367316ECBA25000D33DC /* ViewController_iPhone.xib */,
+				C418367616ECBA25000D33DC /* ViewController_iPad.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C418365316ECBA24000D33DC /* MyIDReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C418367B16ECBA25000D33DC /* Build configuration list for PBXNativeTarget "MyIDReader" */;
+			buildPhases = (
+				C418365016ECBA24000D33DC /* Sources */,
+				C418365116ECBA24000D33DC /* Frameworks */,
+				C418365216ECBA24000D33DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyIDReader;
+			productName = MyIDReader;
+			productReference = C418365416ECBA24000D33DC /* MyIDReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C418364B16ECBA24000D33DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "SecureMetric Technology Sdn. Bhd.";
+				TargetAttributes = {
+					C418365316ECBA24000D33DC = {
+						DevelopmentTeam = 2YT8E2D9X6;
+					};
+				};
+			};
+			buildConfigurationList = C418364E16ECBA24000D33DC /* Build configuration list for PBXProject "MyIDReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C418364916ECBA24000D33DC;
+			productRefGroup = C418365516ECBA24000D33DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C418365316ECBA24000D33DC /* MyIDReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C418365216ECBA24000D33DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C418366316ECBA24000D33DC /* InfoPlist.strings in Resources */,
+				C418366B16ECBA24000D33DC /* Default.png in Resources */,
+				C418366D16ECBA24000D33DC /* Default@2x.png in Resources */,
+				C418366F16ECBA25000D33DC /* Default-568h@2x.png in Resources */,
+				C418367516ECBA25000D33DC /* ViewController_iPhone.xib in Resources */,
+				C418367816ECBA25000D33DC /* ViewController_iPad.xib in Resources */,
+				C418368416ECBAE0000D33DC /* MainBg.png in Resources */,
+				C418368516ECBAE0000D33DC /* MainBg@2x.png in Resources */,
+				C418368616ECBAE0000D33DC /* myid.png in Resources */,
+				C418368716ECBAE0000D33DC /* mykad.png in Resources */,
+				C418368816ECBAE0000D33DC /* mykid.png in Resources */,
+				C425CBE416ECCD8C0072B3B9 /* MyKadBg.png in Resources */,
+				C425CBE516ECCD8C0072B3B9 /* MyKadBg@2x.png in Resources */,
+				C425CBE616ECCD8C0072B3B9 /* MyKidBg.png in Resources */,
+				C425CBE716ECCD8C0072B3B9 /* MyKidBg@2x.png in Resources */,
+				C4DB134416F05A1B002AF497 /* MyKadHeader_iPhone.xib in Resources */,
+				C4DB138116F062EB002AF497 /* nophoto.png in Resources */,
+				C4DB138516F07770002AF497 /* MyKadHeader_iPad.xib in Resources */,
+				C4DB138A16F082CB002AF497 /* MyKidHeader_iPhone.xib in Resources */,
+				C4DB138C16F082E7002AF497 /* MyKidHeader_iPad.xib in Resources */,
+				C4CDE97717169C3E00DA238B /* Icon.png in Resources */,
+				C4CDE97917169C4800DA238B /* Icon@2x.png in Resources */,
+				C4CDE97B17169C6700DA238B /* Icon-72.png in Resources */,
+				C4CDE97D17169C7000DA238B /* icon144.png in Resources */,
+				C4CDE98217169D1E00DA238B /* Icon-Small-50.png in Resources */,
+				C4CDE98317169D1E00DA238B /* Icon-Small.png in Resources */,
+				176BF1421D62F493006F4693 /* Images.xcassets in Resources */,
+				C4CDE98417169D1E00DA238B /* Icon-Small@2x.png in Resources */,
+				C4CDE98517169D1E00DA238B /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C418365016ECBA24000D33DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C418366516ECBA24000D33DC /* main.m in Sources */,
+				C418366916ECBA24000D33DC /* AppDelegate.m in Sources */,
+				C418367216ECBA25000D33DC /* ViewController.mm in Sources */,
+				C4DB134216F059C6002AF497 /* MyKadViewController.m in Sources */,
+				C4DB138816F082A9002AF497 /* MyKidViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C418366116ECBA24000D33DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C418366216ECBA24000D33DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C418367316ECBA25000D33DC /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C418367416ECBA25000D33DC /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			path = MyIDReader;
+			sourceTree = "<group>";
+		};
+		C418367616ECBA25000D33DC /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C418367716ECBA25000D33DC /* en */,
+			);
+			name = ViewController_iPad.xib;
+			path = MyIDReader;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C418367916ECBA25000D33DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nickson Yau (TRY65M264F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nickson Yau (TRY65M264F)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "EF1C9FF4-2D66-4671-A310-C7EEC404F047";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EF1C9FF4-2D66-4671-A310-C7EEC404F047";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		C418367A16ECBA25000D33DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nickson Yau (TRY65M264F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nickson Yau (TRY65M264F)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "EF1C9FF4-2D66-4671-A310-C7EEC404F047";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EF1C9FF4-2D66-4671-A310-C7EEC404F047";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		C418367C16ECBA25000D33DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/MyIDReader\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyIDReader/MyIDReader-Prefix.pch";
+				INFOPLIST_FILE = "MyIDReader/MyIDReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/MyIDReader\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ifa.Solution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C418367D16ECBA25000D33DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/MyIDReader\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyIDReader/MyIDReader-Prefix.pch";
+				INFOPLIST_FILE = "MyIDReader/MyIDReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/MyIDReader\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ifa.Solution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C418364E16ECBA24000D33DC /* Build configuration list for PBXProject "MyIDReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C418367916ECBA25000D33DC /* Debug */,
+				C418367A16ECBA25000D33DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C418367B16ECBA25000D33DC /* Build configuration list for PBXNativeTarget "MyIDReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C418367C16ECBA25000D33DC /* Debug */,
+				C418367D16ECBA25000D33DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C418364B16ECBA24000D33DC /* Project object */;
+}
